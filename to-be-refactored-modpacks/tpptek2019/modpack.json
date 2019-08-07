@@ -1,0 +1,16 @@
+{
+    "name": "tpptek2019",
+    "title": "TPPTEK NG 2019",
+    "version": 1.5,
+    "client": {
+        "templates": [
+            "config/CustomMainMenu/mainmenu.json"
+        ]
+    },
+    "server": {
+        "templates": [
+            "server.properties",
+            "settings.sh"
+        ]
+    }
+}

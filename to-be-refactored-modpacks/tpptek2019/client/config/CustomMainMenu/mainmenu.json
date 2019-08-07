@@ -1,0 +1,212 @@
+{
+    "images":
+    {
+        "transparent":
+        {
+            "image" : "menuassets:bg_menu.png",
+            "posX" : -50,
+            "posY" : -50,
+            "width" : 100,
+            "height" : 120,
+            "alignment" : "center"
+        },
+       
+        "minecraft":
+        {
+            "image" : "menuassets:logo.png",
+            "posX" : -75,
+            "posY" : -130,
+            "width" : 150,
+            "height" : 89,
+            "alignment" : "center"
+        }
+    },
+   
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Singleplayer",
+            "posX" : -50,
+            "posY" : -50,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "menuassets:btn.png",
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "shadow" : false,
+			"action" : 
+			{
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+       
+        "multiplayer":
+        {
+            "text" : "Multiplayer",
+            "posX" : -50,
+            "posY" : -30,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "menuassets:btn.png",
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "shadow" : false,
+			"action" : 
+			{
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+       
+        "mods":
+        {
+            "text" : "Loaded Mods",
+            "posX" : -50,
+            "posY" : -10,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "menuassets:btn.png",
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "shadow" : false,
+			"action" : 
+			{
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+           
+        "options":
+        {
+            "text" : "Options",
+            "posX" : -50,
+            "posY" : 10,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "menuassets:btn.png",
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "shadow" : false,
+			"action" : 
+			{
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+       
+        "language":
+        {
+            "text" : "Language",
+            "posX" : -50,
+            "posY" : 30,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "menuassets:btn.png",
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "shadow" : false,
+			"action" : 
+			{
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+       
+        "quit":
+        {
+            "text" : "Quit Game",
+            "posX" : -50,
+            "posY" : 50,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "center",
+            "texture" : "menuassets:btn.png",
+			"imageWidth" : 100,
+			"imageHeight" : 50,
+            "shadow" : false,
+			"action" : 
+			{
+                "type" : "quit"
+            }
+        }
+    },
+		
+   
+    "labels":
+	{
+		"thanks":
+        {
+            "text" : "Hello #username#.",
+            "posX" : 2,
+            "posY" : -30,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		
+	    "version":
+        {
+            "text" : "Forge version #forgeversion#.",
+            "posX" : 2,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		
+        "loaded":
+        {
+            "text" : "#modsloaded# mods loaded.",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        
+        "tpptek":
+        {
+            "text" : "TPPTEK NG 2019 Client v{{VERSION}}",
+            "posX" : -2,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_right",
+			"anchor" : "end"
+        },
+		
+		"mojang":
+		{
+			"text" : "by DrZoid & Geniks (c) 2019",
+			"posX" : -2,
+			"posY" : -10,
+			"color" : -1,
+			"alignment" : "bottom_right",
+			"anchor" : "end"
+		}
+    },
+   
+    "other":
+    { 
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["menuassets:bg1.png","menuassets:bg2.png","menuassets:bg3.png","menuassets:bg4.png","menuassets:bg5.png","menuassets:bg6.png","menuassets:bg7.png","menuassets:bg8.png","menuassets:bg9.png","menuassets:bg10.png","menuassets:bg11.png"],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            }
+        },
+		"splash-text":
+        {
+            "posX" : 75,
+            "posY" : -75,
+            "color" : -256,
+            "alignment" : "center"
+        }
+    }
+}
