@@ -1,0 +1,24 @@
+{
+  "name": "minecraft-builder",
+  "version": "1.0.0",
+  "description": "Task runner to easily build & distribute Minecraft modpacks",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/docteurzoidberg/minecraft-builder.git"
+  },
+  "keywords": [
+    "minecraft",
+    "modpack",
+    "builder"
+  ],
+  "author": "DrZoid",
+  "license": "unlicence",
+  "bugs": {
+    "url": "https://github.com/docteurzoidberg/minecraft-builder/issues"
+  },
+  "homepage": "https://github.com/docteurzoidberg/minecraft-builder#readme"
+}
